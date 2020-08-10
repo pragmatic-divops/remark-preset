@@ -1,0 +1,6 @@
+_extends: .github
+repository:
+  name: remark-preset
+  description: remark preset for projects under the pragmatic-divops organization
+  homepage: 'https://npm.im/@pragmatic-divops/remark-preset'
+  private: false
