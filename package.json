@@ -3,6 +3,11 @@
   "description": "remark preset for projects under the pragmatic-divops organization",
   "license": "MIT",
   "version": "0.0.0-semantically-released",
+  "type": "module",
+  "exports": "./index.js",
+  "engines": {
+    "node": ">=12.20"
+  },
   "files": [
     "example.js",
     "index.js"
