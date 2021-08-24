@@ -26,7 +26,8 @@
     "lint:md": "remark . --frail",
     "generate:md": "remark . --output",
     "lint:sensitive": "ban",
-    "lint:peer": "npm ls >/dev/null"
+    "lint:peer": "npm ls >/dev/null",
+    "prepare": "husky install"
   },
   "devDependencies": {
     "@pragmatic-divops/commitlint-config": "1.0.5",
