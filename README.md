@@ -24,6 +24,7 @@ for projects under the pragmatic-divops organization
 
 [![MIT license][license-badge]][license-link]
 [![npm][npm-badge]][npm-link]
+![node][node-badge]
 
 <!--consumer-badges end -->
 
@@ -95,3 +96,5 @@ $ npm test
 [npm-link]: https://www.npmjs.com/package/@pragmatic-divops/remark-preset
 
 [npm-badge]: https://img.shields.io/npm/v/@pragmatic-divops/remark-preset.svg
+
+[node-badge]: https://img.shields.io/node/v/@pragmatic-divops/remark-preset?logo=node.js
