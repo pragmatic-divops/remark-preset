@@ -6,7 +6,7 @@
   "type": "module",
   "exports": "./index.js",
   "engines": {
-    "node": ">=12.20"
+    "node": "^14.18 || >=16"
   },
   "files": [
     "example.js",
