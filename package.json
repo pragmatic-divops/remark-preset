@@ -31,7 +31,7 @@
     "lint:engines": "ls-engines"
   },
   "devDependencies": {
-    "@pragmatic-divops/commitlint-config": "1.0.39",
+    "@pragmatic-divops/commitlint-config": "1.0.41",
     "ban-sensitive-files": "1.9.19",
     "cz-conventional-changelog": "3.3.0",
     "husky": "8.0.3",
