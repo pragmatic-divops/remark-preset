@@ -4,23 +4,15 @@
   "license": "MIT",
   "version": "0.0.0-semantically-released",
   "type": "module",
-  "exports": "./index.js",
   "engines": {
     "node": "^14.18 || >=16"
   },
-  "files": [
-    "example.js",
-    "index.js"
-  ],
-  "publishConfig": {
-    "access": "public",
-    "provenance": true
-  },
-  "runkitExampleFilename": "./example.js",
+  "author": "Matt Travi <npm@travi.org> (https://matt.travi.org/)",
   "repository": "pragmatic-divops/remark-preset",
   "bugs": "https://github.com/pragmatic-divops/remark-preset/issues",
   "homepage": "https://npm.im/@pragmatic-divops/remark-preset",
-  "author": "Matt Travi <npm@travi.org> (https://matt.travi.org/)",
+  "runkitExampleFilename": "./example.js",
+  "exports": "./index.js",
   "scripts": {
     "test": "npm-run-all --print-label --parallel lint:*",
     "lint:lockfile": "lockfile-lint --path package-lock.json --type npm --validate-https --allowed-hosts npm",
@@ -32,6 +24,17 @@
     "lint:engines": "ls-engines",
     "lint:publish": "publint --strict"
   },
+  "files": [
+    "example.js",
+    "index.js"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  },
+  "dependencies": {
+    "@form8ion/remark-lint-preset": "5.0.9"
+  },
   "devDependencies": {
     "@pragmatic-divops/commitlint-config": "1.0.41",
     "ban-sensitive-files": "1.10.0",
@@ -42,8 +45,5 @@
     "npm-run-all2": "6.0.6",
     "publint": "0.2.2",
     "remark-cli": "11.0.0"
-  },
-  "dependencies": {
-    "@form8ion/remark-lint-preset": "5.0.9"
   }
 }
