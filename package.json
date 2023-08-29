@@ -13,7 +13,8 @@
     "index.js"
   ],
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "provenance": true
   },
   "runkitExampleFilename": "./example.js",
   "repository": "pragmatic-divops/remark-preset",
