@@ -6,6 +6,7 @@ for projects under the pragmatic-divops organization
 <!--status-badges start -->
 
 [![Node CI Workflow Status][github-actions-ci-badge]][github-actions-ci-link]
+![SLSA Level 2][slsa-badge]
 
 <!--status-badges end -->
 
@@ -98,3 +99,5 @@ $ npm test
 [npm-badge]: https://img.shields.io/npm/v/@pragmatic-divops/remark-preset.svg
 
 [node-badge]: https://img.shields.io/node/v/@pragmatic-divops/remark-preset?logo=node.js
+
+[slsa-badge]: https://slsa.dev/images/gh-badge-level2.svg
