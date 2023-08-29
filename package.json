@@ -29,7 +29,8 @@
     "lint:sensitive": "ban",
     "lint:peer": "npm ls >/dev/null",
     "prepare": "husky install",
-    "lint:engines": "ls-engines"
+    "lint:engines": "ls-engines",
+    "lint:publish": "publint --strict"
   },
   "devDependencies": {
     "@pragmatic-divops/commitlint-config": "1.0.41",
@@ -39,6 +40,7 @@
     "lockfile-lint": "4.12.1",
     "ls-engines": "0.9.0",
     "npm-run-all2": "6.0.6",
+    "publint": "0.2.2",
     "remark-cli": "11.0.0"
   },
   "dependencies": {
