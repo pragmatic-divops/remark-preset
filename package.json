@@ -36,7 +36,7 @@
     "@form8ion/remark-lint-preset": "6.0.4"
   },
   "devDependencies": {
-    "@pragmatic-divops/commitlint-config": "1.0.61",
+    "@pragmatic-divops/commitlint-config": "1.0.62",
     "ban-sensitive-files": "1.10.6",
     "cz-conventional-changelog": "3.3.0",
     "husky": "9.1.6",
