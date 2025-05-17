@@ -37,7 +37,7 @@
   },
   "devDependencies": {
     "@pragmatic-divops/commitlint-config": "1.0.67",
-    "ban-sensitive-files": "1.10.7",
+    "ban-sensitive-files": "1.10.8",
     "cz-conventional-changelog": "3.3.0",
     "husky": "9.1.7",
     "lockfile-lint": "4.14.1",
